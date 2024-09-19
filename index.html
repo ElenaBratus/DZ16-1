@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ДЗ-16-1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <header class="flex items-center">
+      <div class="w-[375px] my-0 mx-[auto] lg:w-[1920px]">
+        <div
+          class="w-full h-[55px] bg-[#0C4B35] flex justify-center items-center lg:h-[59px]"
+        >
+          <div class="w-11/12 flex justify-center items-center lg:w-3/4">
+            <ul
+              class="w-full flex justify-between items-center text-[white] text-[14px] font-normal whitespace-nowrap"
+            >
+              <li class="w-[15%] flex items-center lg:w-auto">
+                <button class="w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]">
+                  <img
+                    class="w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
+                    src="images/header/email 1.png"
+                    alt="email"
+                  />
+                </button>
+                <div class="max-[1023px]:hidden lg:w-11/12 lg:pl-2.5">
+                  <a href=""> Pinnickinick Street, WA 98370</a>
+                </div>
+              </li>
+              <li class="w-[15%] flex items-center lg:w-auto lg:pl-[30px]">
+                <button class="w-full lg:w-[25px] lg:h-[25px]">
+                  <img
+                    class="w-[20px] h-[17px] lg:w-[25px] lg:h-[25px]"
+                    src="images/header/phone-call 1.png"
+                    alt="phone"
+                  />
+                </button>
+                <div class="max-[1023px]:hidden lg:w-11/12 lg:pl-1.5">
+                  <a href="">+01 123456789</a>
+                </div>
+              </li>
+              <li class="w-[15%] flex items-center lg:w-auto lg:pl-[30px]">
+                <button class="w-full lg:w-[25px] lg:h-[25px]">
+                  <img
+                    class="w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
+                    src="images/header/location 1.png"
+                    alt="location"
+                  />
+                </button>
+                <div class="max-[1023px]:hidden lg:w-11/12 lg:pl-1.5">
+                  <a href="">2072 Pinnickinick Street, WA 98370</a>
+                </div>
+              </li>
+              <div
+                class="w-[55%] flex justify-end items-center lg:w-[40%] lg:pl-[30px]"
+              >
+                <li class="dropdown">
+                  <a href="">English</a>
+                  <ul class="dropdown-content">
+                    <li>
+                      <a href="">Українська</a>
+                    </li>
+                    <li>
+                      <a href="">Deutsh</a>
+                    </li>
+                  </ul>
+                  <button class="w-[15%]">
+                    <img
+                      class="w-[7px] h-[3.82px] lg:w-[12px] lg:h-[6.84px]"
+                      src="images/header/Down Arrow.png"
+                      alt="down arrow"
+                    />
+                  </button>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="w-full h-[70px] flex justify-center items-center lg:h-[85px]"
+        >
+          <div
+            class="w-[91%] h-[40px] flex items-center lg:w-[73%] lg:h-[55px]"
+          >
+            <div class="w-[70%] lg:w-[40%]">
+              <img src="images/header/1 LOGO.png" alt="Logo" />
+            </div>
+            <div
+              class="w-[30%] h-[34px] flex items-center justify-between lg:w-[60%] lg:h-[50px]"
+            >
+              <ul
+                class="max-[1023px]:hidden lg:w-[70%] lg:ml-[-20px] flex justify-between font-family-[Nunito] text-[16px] font-[700] leading-5"
+              >
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Home</a>
+                </li>
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Company</a>
+                </li>
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Services</a>
+                </li>
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Project</a>
+                </li>
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Blog</a>
+                </li>
+                <li class="hover:text-[#00730C] pr-[10px]">
+                  <a href="">Contact</a>
+                </li>
+              </ul>
+              <button
+                class="w-[40%] rounded-[10px] flex items-center justify-center bg-[#00730C] text-[white] lg:rounded-[5px] lg:w-[20%] lg:h-[50px] lg:mr-[-10px]"
+              >
+                <div
+                  class="h-[34px] flex justify-center items-center lg:h-[30px]"
+                >
+                  <img
+                    class="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]"
+                    src="images/header/phone.png"
+                    alt="phone-call"
+                  />
+                </div>
+                <div
+                  class="max-[1023px]:hidden font-family-[Nunito] text-[18px] font-[700px] leading-6"
+                >
+                  Call Us
+                </div>
+              </button>
+              <button class="inline-block relative group lg:hidden">
+                <img class="" src="images/header/menu (1).png" alt="menu" />
+                <div
+                  class="opacity-0 group-hover:opacity-100 hidden absolute ml-[-15px]"
+                >
+                  <ul
+                    class="font-family-[Nunito] text-xs font-bold leading-5 text-left"
+                  >
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Home</a>
+                    </li>
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Company</a>
+                    </li>
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Services</a>
+                    </li>
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Project</a>
+                    </li>
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Blog</a>
+                    </li>
+                    <li class="hover:text-[#00730C]">
+                      <a href="">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <Navigation_Menu class="flex items-center flex">
+      <div
+        class="w-[375px] h-[719px] my-0 mx-[auto] lg:flex lg:w-[1920px] bg-gradient-to-r from-[#00730CCF] to-transparent"
+      >
+        <div class="w-full h-[240px] lg:hidden">
+          <img class="object-cover" src="images/Navigation_Menu/Img1.png" />
+        </div>
+        <div
+          class="max-[1023px]:hidden w-[10%] h-[719px] flex items-end bg-contain bg-no-repeat bg-[center_bottom_40px]"
+        >
+          <img class="" src="images/Navigation_Menu/flower.png" />
+
+          <img
+            class="block absolute object-cover"
+            src="images/Navigation_Menu/shadow.png"
+            alt="shadow"
+          />
+        </div>
+        <div class="w-full ml-[14.5px] font-['Nunito'] flex-nowrap lg:w-[37%]">
+          <div class="h-[19.89px] mt-[47.63px] flex lg:h-[20px] lg:mt-[75px]">
+            <div
+              class="w-[23.8px] h-[19.89px] object-cover lg:h-[20px]"
+              style="background-image: url(images/Navigation_Menu/Vector.svg)"
+            ></div>
+            <p
+              class="ml-[5px] text-[14px] font-bold leading-[19.1px] lg:text-[16px] lg:leading-[20px]"
+            >
+              landscape planting services
+            </p>
+          </div>
+          <p
+            class="w-full mt-[25px] text-[28px] font-bold leading-[38.19px] lg:w-full lg:text-[58px] lg:font-extrabold lg:leading-[79.19px]"
+          >
+            Perfect Landscape <a class="text-[#00730c]"> Solution.</a>
+          </p>
+          <p
+            class="w-full mt-[20px] text-[14px] leading-[22px] font-normal lg:text-[18px] lg:leading-[30px]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <div
+            class="w-full mt-[43.35px] flex justify-center flex-wrap lg:w-[80%] lg:mt-[50px] lg:flex lg:justify-start lg:items-center"
+          >
+            <button
+              class="w-[81%] h-[50px] rounded-[5px] bg-[#00730C] text-[#FFFFFF] text-[16px] lg:w-[49%] lg:text-[18px]"
+              type=""
+            >
+              Get A Quate
+            </button>
+            <button
+              class="h-[12.65px] mt-[30px] flex items-center object-cover text-[14px] font-[600] leading-[19.1px] text-[#00730C] lg:w-[51%] lg:pl-[20px] lg:mt-0 lg:text-[18px] lg:leading-[30px] lg:text-[#676767] text lg:whitespace-nowrap"
+              type=""
+            >
+              See how it works
+              <img
+                class="h-[12.65px] pl-[10px] decoration-[#00730C] lg:hidden"
+                src="images/Navigation_Menu/Vector_green.svg"
+              />
+              <img
+                class="max-[1023px]:hidden h-[12.65px] pl-[10px] decoration-[#00730C]"
+                src="images/Navigation_Menu/Vector1.svg"
+              />
+            </button>
+          </div>
+          <div class="w-full flex justify-around">
+            <img
+              class="mt-[-35px] object-cover relative lg:hidden"
+              src="images/Navigation_Menu/flower.png"
+              alt="flowers"
+            />
+            <img
+              class="block absolute object-cover lg:hidden"
+              src="images/Navigation_Menu/shadow.png"
+              alt="shadow"
+            />
+            <div
+              class="w-[80%] mt-[25px] flex justify-around text-nowrap font-normal text-[10px] leading-[13.64px] lg:hidden"
+            >
+              <button
+                class="w-[45%] h-[32px] rounded-[32px] bg-[#FFF8F1] bg-gradient-to-r from-[#FFF8F1] to-[#D7E8D9]"
+              >
+                <a class="font-bold text-[12px] leading-[16.37px]">500+</a>
+                Happy Customrs
+              </button>
+              <button
+                class="w-[45%] h-[32px] rounded-[32px] bg-[#FFF8F1] bg-gradient-to-r from-[#FFF8F1] to-[#D7E8D9]"
+              >
+                <a class="font-bold text-[12px] leading-[16.37px]"> 800+</a>
+                Garden Created
+              </button>
+            </div>
+            <div
+              class="max-[1023px]:hidden w-full h-[50px] mt-[30px] flex justify-start"
+            >
+              <div
+                class="w-[95%] h-[50px] mt-[20px] flex justify-between font-bold"
+              >
+                <div class="w-[33%] flex justify-between flex items-center">
+                  <button
+                    class="w-[45px] h-[45px] flex items-center justify-center rounded-[35px] bg-[#FFF8F1] bg-gradient-to-r from-[#00730C] to-[#F9F9F9] text-[15px] leading-[20.46px]"
+                  >
+                    500+
+                  </button>
+                  <p class="w-[60%] text-[15px] leading-[20px] text-wrap">
+                    Happy <br />
+                    Customrs
+                  </p>
+                </div>
+                <div class="w-[33%] flex justify-between flex items-center">
+                  <button
+                    class="w-[45px] h-[45px] flex items-center justify-center rounded-[35px] bg-[#FFF8F1] bg-gradient-to-r from-[#00730C] to-[#F9F9F9] text-[15px] leading-[20.46px]"
+                  >
+                    800+
+                  </button>
+                  <p class="w-[60%] text-[15px] leading-[20px]">
+                    Garden <br />
+                    Created
+                  </p>
+                </div>
+                <div class="w-[33%] flex justify-between flex items-center">
+                  <button
+                    class="w-[45px] h-[45px] flex items-center justify-center rounded-[35px] bg-[#FFF8F1] bg-gradient-to-r from-[#00730C] to-[#F9F9F9] text-[15px] leading-[20.46px]"
+                  >
+                    100+
+                  </button>
+                  <p class="w-[60%] text-[15px] leading-[20px]">
+                    Team <br />
+                    Members
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="max-[1023px]:hidden w-[53%] h-[719px] bg-contain bg-no-repeat bg-[center_top_46px]"
+          style="background-image: url(images/Navigation_Menu/Img1.png)"
+        ></div>
+      </div>
+    </Navigation_Menu>
+  </body>
+</html>
