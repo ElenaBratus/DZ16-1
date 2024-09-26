@@ -179,24 +179,33 @@
     </header>
     <Navigation_Menu class="flex items-center flex">
       <div
-        class="w-[375px] h-[719px] my-0 mx-[auto] lg:flex lg:w-[1920px] bg-gradient-to-r from-[#00730CCF]/40 to-[#FBF6EE00]"
+        class="w-[375px] my-0 mx-[auto] lg:flex lg:w-[1920px] bg-gradient-to-r from-[#00730CCF]/40 to-[#FBF6EE00]"
       >
         <div class="w-full h-[240px] lg:hidden">
           <img class="object-cover" src="images/Navigation_Menu/Img1.png" />
         </div>
         <div
-          class="max-[1023px]:hidden w-[10%] h-[719px] flex items-end bg-contain bg-no-repeat bg-[center_bottom_40px]"
+          class="max-[1023px]:hidden w-[10%] h-[719px] flex items-end bg-no-repeat relative"
         >
-          <img class="" src="images/Navigation_Menu/flower.png" />
-
-          <img
-            class="block absolute object-cover"
-            src="images/Navigation_Menu/shadow.png"
-            alt="shadow"
-          />
+          <div class="w-[90%] h-[719px] relative flex items-end pb-[10px]">
+            <img
+              class="w-full h-[38%] object-contain absolute object-bottom z-40"
+              src="images/Navigation_Menu/flower.png"
+              alt="flower"
+            />
+          </div>
+          <div class="w-[90%] h-[25.46px] absolute flex items-end mb-0">
+            <img
+              class="w-full object-contain absolute object-bottom z-0"
+              src="images/Navigation_Menu/Ellipse 20.svg"
+              alt="shadow"
+            />
+          </div>
         </div>
-        <div class="w-full ml-[14.5px] font-['Nunito'] flex-nowrap lg:w-[37%]">
-          <div class="h-[19.89px] mt-[47.63px] flex lg:h-[20px] lg:mt-[75px]">
+        <div
+          class="w-full ml-[14.5px] font-['Nunito'] flex-nowrap content-around lg:w-[37%] lg:h-[719px]"
+        >
+          <div class="h-[19.89px] mt-[47.63px] flex lg:h-[20px]">
             <div
               class="w-[23.8px] h-[19.89px] object-cover lg:h-[20px]"
               style="background-image: url(images/Navigation_Menu/Vector.svg)"
@@ -243,18 +252,24 @@
             </button>
           </div>
           <div class="w-full flex justify-around">
-            <img
-              class="mt-[-35px] object-cover relative lg:hidden"
-              src="images/Navigation_Menu/flower.png"
-              alt="flowers"
-            />
-            <img
-              class="block absolute object-cover lg:hidden"
-              src="images/Navigation_Menu/shadow.png"
-              alt="shadow"
-            />
+            <div class="mb-[40px]">
+              <div class="relative">
+                <img
+                  class="object-contain lg:hidden"
+                  src="images/Navigation_Menu/flower.png"
+                  alt="flowers"
+                />
+              </div>
+              <div class="">
+                <img
+                  class="mt-[-35px] ml-0 absolute object-cover lg:hidden"
+                  src="images/Navigation_Menu/Ellipse 20.svg"
+                  alt="shadow"
+                />
+              </div>
+            </div>
             <div
-              class="w-[80%] mt-[25px] flex justify-around text-nowrap font-normal text-[10px] leading-[13.64px] lg:hidden"
+              class="w-[80%] flex justify-around items-center text-nowrap font-normal text-[10px] leading-[13.64px] lg:hidden"
             >
               <button
                 class="w-[45%] h-[32px] rounded-[32px] bg-[#FFF8F1] bg-gradient-to-r from-[#FFF8F1] to-[#D7E8D9]"
@@ -313,9 +328,13 @@
           </div>
         </div>
         <div
-          class="max-[1023px]:hidden w-[53%] h-[719px] bg-contain bg-no-repeat bg-[center_top_46px]"
-          style="background-image: url(images/Navigation_Menu/Img1.png)"
-        ></div>
+          class="max-[1023px]:hidden w-[53%] h-[719px] relative flex items-end"
+        >
+          <img
+            class="h-[673px] object-cover absolute"
+            src="images/Navigation_Menu/Img1.png"
+          />"
+        </div>
       </div>
     </Navigation_Menu>
   </body>
